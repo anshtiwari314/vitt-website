@@ -38,7 +38,7 @@ $(document).ready(function() {
 
           } else {
 
-              subscribeAlertMessage.html('<p><i class="fa fa-check-circle-o"></i> ' + response.status + '</p>');
+              subscribeAlertMessage.html('<p><i class="fa fa-check-circle-o"></i> We will reach out to you in 3 business days.</p>');
               subscribeButton.html('<i class="fa fa-paper-plane first"></i><i class="fa fa-paper-plane second"></i>');
               subscribeFormInputs.prop("disabled", false);
               $('#subscribe-email').val('');
@@ -110,7 +110,7 @@ $(document).ready(function() {
 
             } else {
 
-                contactAlertMessage.html('<p><i class="fa fa-check-circle-o"></i> ' + response.text + '</p>');
+                contactAlertMessage.html('<p><i class="fa fa-check-circle-o"></i>We will reach out to you in 3 business days.</p>');
 
                 // After, all the fields are reset and enabled
                 contactFormInputs.prop("disabled", false);
